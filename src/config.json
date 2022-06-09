@@ -1,0 +1,87 @@
+{
+  "Import": {
+    "Moderation": {
+      "Token": "OTg0MzgwMjcwNjMzNDM1MTU3.GY7mjp.V1xg1crK6WMGMOo_64U4Uy7tzMOIWvzCHIrW6A"
+    },
+    "Supervisor": {
+      "Token": "OTg0MzgwNjUzMTEyMDI1MDg4.GuUHpJ.wx_LigEacf5K8eoDYLB3GBhDEfNSbtrZhi-U-8"
+    },
+    "Owners": ["980817641025470526"],
+    "MongooseURL": "mongodb+srv://Aprax31:orhanxd@aprax.fpaji.mongodb.net/?retryWrites=true&w=majority",
+    "Presence": {
+      "name": "Eldar bir orospu cocugudur",
+      "type": "WATCHING",
+      "status": "dnd"
+    }
+  },
+  "Guild": {
+    "Prefixes": ["!", "."],
+    "GuildID": "980253547872522241",
+    "guildURL": "https://discord.gg/wXpcmgV5pb",
+    "Settings": {
+      "TagIntake": true,
+      "NameAge": true
+    },
+    "Rules": "980397939333668894",
+    "Welcome": "980392879413424238"
+  },
+  "VoiceLog": {
+    "id": "984364688877973524",
+    "token": "Gn4RM6TLESzeboixsQDxFXeh4crGyD6oTDoklvhCcpayo6Af4Tk58X5XZyQSamrNCUVt"
+  },
+  "TagLog": {
+    "id": "984365443697491979",
+    "token": "ojIHJ3C2f6E4Lwc-Y-oj0uYadlO8noybvkM-1mZie4h-nX2AUVI95re1qMy9R_jWSX5f"
+  },
+  "MsgLog": {
+    "id": "984366151112990730",
+    "token": "FiRVVuPfmAiN5ProFtPFjf3sla6a6KL5DLkCvmn5phQXCI0TRNxZgyE-vzGq3HvDH5xA"
+  },
+  "Logs": {
+    "CezaPuanLog": "984363564573810708",
+    "MapusLog": "984363682257584128",
+    "MuteLog": "984363590448459796",
+    "VMuteLog": "984363590448459796",
+    "KickBanLog": "984363615157100574"
+  },
+  "Tags": {
+    "Tags" : ["F1", "f1", "0071" ] ,
+    "FakeTag": "★",
+    "TagRoles": "982671251111825428"
+  },
+  "CezaRoles": {
+    "MuteRoles": "980257303422971904",
+    "JailRoles": "980260175141285919",
+    "Karantina": "980260175141285919"
+  },
+  "Voice": {
+    "Parents": {
+      "register": "980262779892154400",
+      "public": "980253547872522243",
+      "secret": "980393683440533504",
+      "alone": "984375224877322260",
+      "other": "984375309195415592"
+    }
+  },
+  "React": {
+    "star": "984145873002987610",
+    "tik": "984173209807101962",
+    "iptal": "984378020431278090",
+    "cmute": "984379626291855360",
+    "vmute": "984379626291855360",
+    "load": "984378486896599071"
+  },
+  "Perms": {
+    "Commander": ["980257303196475413"],
+    "Register": ["980257303196475413"],
+    "Mute": ["980257303234248814"],
+    "Jail": ["980257303276191874"],
+    "KickBan": ["980257303288774716"]
+  },
+  "Roles": {
+    "Booster": "984363897291149343",
+    "Erkek": ["980259611774967889"],
+    "Kız": ["980259623196065803"],
+    "Unregister": ["980260012326793216"]
+  }
+}
