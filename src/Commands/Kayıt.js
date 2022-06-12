@@ -28,7 +28,7 @@ class Kayıt {
       
       let tag = member.user.username.includes(config.Tags.OrjTag) ? config.Tags.OrjTag : (config.Tags.FakeTag === "" ? config.Tags.OrjTag : config.Tags.FakeTag)
       if (message.member.roles.highest.position <= member.roles.highest.position) return client.tepki(message, "iptal", client.embed(`${client.react("iptal")} | ${member} kullanıcısı senden üst bir rolde veya aynı roldesiniz, bu işlemi gerçekleştiremem.`, message));
-      if (((config.Guild.Settings.TagIntake) === true) && (!member.user.username.includes(config.Tags.OrjTag)) & (!member.roles.cache.get(config.Roles.Booster))) return client.tepki(message, "iptal", `Sunucumuz şu anda taglı(\`${config.Tags.OrjTag}\`) alımda bulunmaktadır, bu yüzden içeri tagsız kullanıcıları alamazsınız.`);
+      if (((config.Guild.Settings.TagIntake) === true) && (!member.user.username.includes(config.Tags.OrjTag)) & (!member.roles.cache.get(config.Roles.Booster))) return client.tepki(message, "iptal", `Sunucumuz şu anda taglı(\`${Config.Tags.Tags.map(x => x).join(",")}\`) alımda bulunmaktadır, bu yüzden içeri tagsız kullanıcıları alamazsınız.`);
       if (config.Roles.Erkek.some(x => message.member.roles.cache.has(x)) || config.Roles.Kız.some(x => message.member.roles.cache.has(x))) return client.tepki(message, "iptal", client.embed(`${client.react("iptal")} | Bu kullanıcı zaten kayıtlı durumda, kayıtlı bir kullanıcıyı tekrar kayıt edemezsin.`, message));
       if ((!name) && (!age)) return client.tepki(message, "iptal", client.NoNameAge(message))
       else if ((!name) && (age)) return client.tepki(message, "iptal", client.embed(`${client.react("iptal")} | Kullanıcının herhangi bir ismi olmadan yaşını belirleyemezsin`, message));
