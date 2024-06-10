@@ -12,7 +12,7 @@ class Gacıbul {
 
     if (!isim || !yaş) return message.channel.send("ya orospu çocuğu detaylı Arama için isim yaş girmen laızm hem girmiyon hem de uğraşa sokuyon")
     let kızlar = message.guild.members.cache.filter(x => x.displayName.includes(isim) || x.displayName.includes(yaş)).split(0,9).map(x=> i+1 + x.user.discriminator);
-    message.channel.send(`al kardsm cabuk bul yengeyi \n\n ${kızlar} `)
+    message.channel.send(`sa \n\n ${kızlar} `)
   };
 };
 
